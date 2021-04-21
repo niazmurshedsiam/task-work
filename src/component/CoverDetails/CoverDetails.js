@@ -33,7 +33,7 @@ const CoverDetails = (props) => {
         <p><small>{sort}</small></p>
         <hr/>     
       </div>
-      <div className="cover-details" style={{borderRight:'1px solid gray',margin:'5px',padding:'5px'}}>
+      <div className="siders-details" style={{borderRight:'1px solid gray',margin:'2px',padding:'2px'}}>
         <h2>{title}</h2>
         <h5>{suptitle}</h5>
         <p><small>{description}</small></p>
@@ -43,6 +43,8 @@ const CoverDetails = (props) => {
       </div>
       
     </div>
+    
+    
 
     
   );
