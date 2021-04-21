@@ -33,6 +33,14 @@ const CoverDetails = (props) => {
         <p><small>{sort}</small></p>
         <hr/>     
       </div>
+      <div className="cover-details" style={{borderRight:'1px solid gray',margin:'5px',padding:'5px'}}>
+        <h2>{title}</h2>
+        <h5>{suptitle}</h5>
+        <p><small>{description}</small></p>
+        <p><small>{(new Date()).getHours()} hour ago</small></p>
+        <p><small>{sort}</small></p>
+        <hr/>     
+      </div>
       
     </div>
 
